@@ -1,3 +1,4 @@
+#https://codeforces.com/contest/2126/problem/E
 from math import gcd
 def solve():
     n = int(input())
