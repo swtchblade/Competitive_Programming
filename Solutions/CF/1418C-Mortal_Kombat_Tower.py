@@ -1,3 +1,4 @@
+#https://codeforces.com/contest/1418/problem/C
 for _ in range(int(input())):
     n = int(input())
     a = list(map(int, input().split()))
