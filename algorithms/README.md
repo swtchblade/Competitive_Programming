@@ -1,0 +1,1 @@
+Mostly algorithm implementations and templates I've used for USACO or CF. I try to keep these as short as possible since they shouldn't need major changes in-contest. Will continue to update as I improve. 
