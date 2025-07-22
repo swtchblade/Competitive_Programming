@@ -1,3 +1,4 @@
+#https://codeforces.com/contest/2126/problem/C
 for _ in range(int(input())):
     n,k=map(int,input().split())
     k-=1
