@@ -1,5 +1,5 @@
-vb v;
-V<vi> ad;
+V<bool> v;
+V<V<int>> ad;
 void dfs(int i){
     v[i] = true;
     each(a, ad[i]){if(!v[a]){dfs(a);}}}
