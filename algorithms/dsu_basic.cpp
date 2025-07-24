@@ -1,5 +1,5 @@
 struct DSU {
-	vi e;void init(int N){e=vi(N,-1);}
+	V<int> e;void init(int N){e=V<int>(N,-1);}
 	int get(int x){return e[x] < 0?x:e[x]=get(e[x]);} 
 	bool same(int a,int b){return get(a)==get(b);}
 	int size(int x){return -e[get(x)];}
