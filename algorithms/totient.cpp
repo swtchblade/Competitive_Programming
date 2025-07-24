@@ -9,7 +9,7 @@ int phi(int n) {
     return r;}
 //O(n logn logn), computes all phi(i) between 1...n
 int N=;
-vi phi(N);
+V<int> phi(N);
 void allphi(){
     FOR(i,1,N){phi[i]=i;}
     FOR(i,2,N){
