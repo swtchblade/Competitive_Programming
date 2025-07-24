@@ -2,9 +2,9 @@
 using namespace std;
 #define tcT template<class T
 tcT> using V=vector<T>; 
+tcT> using S=set<T>; 
 using ll=long long;using ld=long double;using db=double;using str=string;
 using pi=pair<int,int>;using pl=pair<ll,ll>;
-using vi=V<int>;using vl=V<ll>;using vb=V<bool>;using vs=V<str>;using vpi=V<pi>;
 #define len(a) a.size()
 #define rz resize
 #define FOR(i,a,b) for(int i=a;i<b;i++)
@@ -25,6 +25,7 @@ using vi=V<int>;using vl=V<ll>;using vb=V<bool>;using vs=V<str>;using vpi=V<pi>;
 #define mp make_pair
 #define f first
 #define s second
+#define add insert
 int main() { 
 	ios::sync_with_stdio(false);
 	cin.tie(nullptr);
