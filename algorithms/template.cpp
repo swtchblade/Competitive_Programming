@@ -3,6 +3,7 @@ using namespace std;
 #define tcT template<class T
 tcT> using V=vector<T>; 
 tcT> using S=set<T>; 
+tcT> using Q=deque<T>;
 using ll=long long;using ld=long double;using db=double;using str=string;
 using pi=pair<int,int>;using pl=pair<ll,ll>;
 #define len(a) a.size()
