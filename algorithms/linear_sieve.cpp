@@ -1,6 +1,6 @@
 int N;
-vi lp(N);
-vi pr;
+V<int> lp(N);
+V<int> pr;
 void sieve(){
     FOR(i,2,N){
         if(!lp[i]){lp[i]=i;pr.pb(i);}
