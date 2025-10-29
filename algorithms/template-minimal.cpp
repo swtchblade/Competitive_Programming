@@ -10,8 +10,6 @@ using ll=long long;using str=string;
 #define so(x) sort(all(x))
 #define pb push_back
 #define mp make_pair
-#define f first
-#define s second
 int main() { 
 	ios::sync_with_stdio(false);
 	cin.tie(nullptr);
